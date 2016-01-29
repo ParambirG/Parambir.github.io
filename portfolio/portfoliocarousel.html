@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio Carousel</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <style rel="stylesheet" type="text/css" href="styles.css"></style>
+</head>
+
+<body>
+
+    <div class = "navbar navbar-inverse navbar-static-top">
+        <div class = "container">
+            
+            <a href = "#" class = "navbar-brand">Tech Site</a>
+            
+            <button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+                <span class = "icon-bar"></span>
+                <span class = "icon-bar"></span>
+                <span class = "icon-bar"></span>
+                
+            </button>
+            
+            <div class = "collapse navbar-collapse navHeaderCollapse">
+                
+                <ul class = "nav navbar-nav navbar-right">
+                    
+                    <li class = "active"><a href = "homepage.html" >Home</i></a></li>
+                    <li><a href = "article.html"><i class="fa fa-graduation-cap"></i></a></li>
+                     <li><a href = "portfoliocarousel.html" >Carousel</a></li>
+                    <li class = "dropdown">
+                        
+                        <a href = "#" class = "dropdown-toggle" data-toggle = "dropdown">Hobbies <b class = "caret"></b></a>
+                        <ul class = "dropdown-menu">
+                            <li><a href = "#"><i class="fa fa-dribbble"></i></a></li>
+                            <li><a href = "#"><i class="fa fa-television"></i></a></li>
+                            <li><a href = "#"><i class="fa fa-bed"></i></a></li>
+                            <li><a href = "#"><i class="fa fa-gamepad"></i></a></li>
+                            
+                        </ul>                       
+                        
+                        
+                    </li>
+                    <li><a href = "jobs.html"><i class="fa fa-wrench"></i></a></li>
+                    <li><a href = "#contact" data-toggle = "modal"><i class="fa fa-phone"></i></a></li>
+                
+                </ul>
+                
+            </div>
+            
+        </div>
+   </div>
+
+
+
+
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+   
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+      </ol>
+    
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="img/dog.jpg" alt="Slide 1">
+          <div class="carousel-caption">
+            <h1>Goldendoodle</h1>
+            <p>I have a goldendoodle named Cooper, he's awesome. Unfortunately I don't have any pics of him on my computer so I had to find one online.</p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/88984.jpg" alt="Slide 2">
+          <div class="carousel-caption">
+            <h1>Shoes</h1>
+            <p>I really like shoes, and can sometimes be considered a, "sneakerhead" of sorts. I really don't have a favorite brand and am fine with wearing anything.</p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/imgres.jpg" alt="Slide 3">
+          <div class="carousel-caption">
+            <h1>Basketball</h1>
+            <p>My favorite sport to play and watch is basketball, I love everything about it. I also respect the athletes who are so confident in their game that they can trample anyone in their paths.</p>
+          </div>
+        </div>
+        <div class="item">
+            <img src="img/url.jpg" alt="Slide 4">
+            <div class="carousel-caption">
+                <h1>Celtics</h1>
+                <p>The Boston Celtics are my favorite team of all time. They have had many amazing players and are a team staple in the NBA.</p>
+        </div>
+        </div>
+        <div class = "item">
+            <img src = "img/scrubs_468.jpg" alt="Slide 5">
+            <div class = "carousel-caption">
+                <h1>Scrubs</h1>
+                <p>Scrubs is my favorite show, I love the humor as well as the dramatic parts it sprinkles in here and there.</p>
+        </div>
+        </div>
+        <div class = "item">
+            <img src = "img/kanye.jpg" alt="Slide 6">
+            <div class = "carousel-caption">
+                <h1>Kanye West</h1>
+                <p>I really like all of Kanye's old stuff, however I really don't like the album Yeezy. The musical direction he's taking right now is actually much better and you can appreciate it more.</p>
+        </div>
+        </div>
+        
+      </div>
+    
+      <!-- Controls -->
+      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>  
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</body>
+</html>
